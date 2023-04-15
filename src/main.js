@@ -5,5 +5,5 @@ import store from './store'
 import loadScripts from './script'
 import  axios from "axios"
 loadScripts();
-axios.defaults.baseURL="younes102.pythonanywhere.com"
+axios.defaults.baseURL="http://younes102.pythonanywhere.com/"
 createApp(App).use(store).use(router,axios).mount('#app')
